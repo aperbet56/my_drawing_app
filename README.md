@@ -19,5 +19,6 @@ Lien vers le projet : https://aperbet56.github.io/my_drawing_app/
 - Flexbox
 - Animations CSS
 - Utilisation d'un normaliseur : le fichier normalize.css
+- Page web responsive
 - JavaScript
 - Code JavaScript commenté
