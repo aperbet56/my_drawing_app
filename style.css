@@ -1,0 +1,145 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.container {
+    height: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.toolbar {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1%;
+    left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease-in-out;
+    background-image: linear-gradient(to right, #4568dc, #b06ab3);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toolbar div, button, input {
+    margin: 5px;
+}
+
+.toolbar:hover, button:hover {
+    cursor: pointer;
+}
+
+.clr {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #0000ff;
+    border: 3px solid #ffffff;
+    transition: transform 0.5s ease-in-out;
+}
+
+.clr:hover {
+    transform: scale(1.2);
+}
+
+.clr:nth-child(1) {
+    background-color: #000000;
+}
+
+.clr:nth-child(2) {
+    background-color: #ff0000;
+}
+
+.clr:nth-child(3) {
+    background-color: #ffa500;
+}
+
+.clr:nth-child(4) {
+    background-color: #0000ff;
+}
+
+.clr:nth-child(5) {
+    background-color: #800080;
+}
+
+.clr:nth-child(6){
+    background-color: #9acd32;
+}
+
+.clr:nth-child(7){
+    background-color: #ffff00;
+}
+
+.clr:nth-child(8){
+    background-color: #ffffff;
+}
+
+button {
+    padding: 0.6em 1em;
+    border-radius: 3px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.save {
+    background-color:#03ff74; 
+}
+
+input[type="color"] {
+    width: 60px;
+    height: 40px;
+}
+
+#ageOutputId {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#ageInputId {
+    background-image: linear-gradient(to right, #000428 0%, #004e92 100%);
+    height: 7px;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 3px solid #ffffff;
+    accent-color: #ffffff;
+}
+
+.emoji {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
